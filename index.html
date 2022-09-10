@@ -1,0 +1,71 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Sail&display=swap" rel="stylesheet">
+
+
+<body style="background-color:#000000; background-repeat: no-repeat; background-size: cover !important; margin:0;">
+
+
+
+<div style="display: flex;
+    align-items: center; justify-content: space-between;height: 100%;">
+<img id="pic" align=left src=https://i.postimg.cc/W4N1rLqm/unknown1.png width=auto height=100% style="margin-left:-200px;transition: 3s;">
+
+
+
+
+
+
+<center>
+<p id="text" style="margin-bottom:100%;transition: 5s;"></p>
+
+<div style="background-image:url(''); background-repeat: no-repeat; background-size: contain;
+    background-position-x: center; float:right;">
+
+<font color="#33cc33" size=7 style="font-family: 'Sail', cursive;font-size:60px;"><b>Sasha Rudo</b></font>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<font color="#33cc33" size=7 style="font-family: 'Pinyon Script', cursive;font-size:30px;">
+Ever watchful is the eye of the fox. Ever listening to the dangers that lurk beyond. 
+</font>
+<font color="#33cc33" face='verdana' style="font-family: 'Pinyon Script', cursive;font-size:30px;">
+particular red hair sways behind the fox mask. 
+<br>
+While hanafuda earrings dance from her ears. As a single unique white bow rests at her back.
+<br>
+
+</font>
+
+</div>
+
+
+</center>
+</div>
+
+
+<script>
+
+$(document).ready(function(){
+
+$('#pic').hide();
+$('#pic2').hide();
+$('#text').hide();
+$('font').hide();
+$('#pic').animate({"margin-left": '+=200'}, 1000);
+$('#pic').fadeTo(3000, 1.0);
+$('#text').animate({"margin-bottom": '-=100%'}, 1000);
+$('#text').fadeTo(3000, 1.0);
+
+$('font').fadeTo(3000, 1.0);
+
+
+});
+
+</script>
